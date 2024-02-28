@@ -49,6 +49,7 @@ nav {
 	display: flex;
 	justify-content: space-between;
 	gap: 10px;
+	flex-wrap: wrap;
 }
 
 button {
@@ -186,5 +187,9 @@ a {
 	.card--work-history {
 		border-left: none;
 		padding-left: 0;
+	}
+
+	button {
+		font-size: 12px;
 	}
 }
