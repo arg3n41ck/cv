@@ -12,49 +12,51 @@
 </head>
 
 <body>
+
+    <nav>
+        <button data-i18n="switchTheme" id="theme-toggle">Switch Theme</button>
+
+        <div>
+            <button id="lang-en">English</button>
+            <button id="lang-ru">Русский</button>
+        </div>
+    </nav>
+
     <div id="container--main">
 
         <section id="wrapper--hero" class="section--page">
             <img id="profile-pic" src="./assets/images/argen.jpeg">
-
             <div>
-                <h1 id="user-name">Alimbaev Argen</h1>
-                <p id="bio">Frontend developer with over 1.5 year of experience in creating quality user interfaces</p>
-                <p id="email">👉 argoalimbaev@gmail.com</p>
+                <h1 data-i18n="userName">Alimbaev Argen</h1>
+                <p data-i18n="bio">Frontend developer with over 1.5 years of experience in creating quality user
+                    interfaces</p>
+                <p data-i18n="email">👉 argoalimbaev@gmail.com</p>
             </div>
         </section>
 
 
 
         <section class="section--page">
-
             <div id="socials--list">
-                <a href="https://www.linkedin.com/in/argenalimbaev/" target="_blank">Linkedin</a>
-                <a href="https://github.com/arg3n41ck" target="_blank">Github</a>
-                <a href="https://t.me/arg3n41ck" target="_blank">Telegram</a>
-                <a href="https://drive.google.com/file/d/1O15uU-3PwRJxXaqMkEljNaYFxF1G7MPa/view?usp=sharing"
-                    target="_blank">Resume</a>
+                <a href="https://www.linkedin.com/in/argenalimbaev/" target="_blank" data-i18n="linkedin">Linkedin</a>
+                <a href="https://github.com/arg3n41ck" target="_blank" data-i18n="github">Github</a>
+                <a href="https://t.me/arg3n41ck" target="_blank" data-i18n="telegram">Telegram</a>
+                <a href="https://drive.google.com/file/d/1H6Enk9r5Thm3CaMgk_7KVewUCToEUfI4/view?usp=sharing"
+                    target="_blank" data-i18n="resume">Resume</a>
             </div>
         </section>
 
         <section class="section--page">
-            <h2>About me</h2>
-
-            <p id="bio">
-                I have worked closely with backend developers to ensure integration and functionality. <br />
-                I am always willing to
-                be a valuable team member and ready for new projects and challenges. <br />
-                I love working in a company where I can apply and improve my skills while working with highly skilled
-                professionals. I
-                am confident that my experience, knowledge and motivation will help me to achieve great results and
-                contribute to the
-                success of your company.
-            </p>
-
+            <h2 data-i18n="aboutMe">About me</h2>
+            <p data-i18n="aboutMeText">I have worked closely with backend developers to ensure integration and
+                functionality. I am always willing to be a valuable team member and ready for new projects and
+                challenges. I love working in a company where I can apply and improve my skills while working with
+                highly skilled professionals. I am confident that my experience, knowledge and motivation will help me
+                to achieve great results and contribute to the success of your company.</p>
         </section>
 
         <section class="section--page">
-            <h2>Tech stack</h2>
+            <h2 data-i18n="techStack">Tech stack</h2>
 
             <div id="wrapper--techstack__items">
                 <div class="card--techstack"><span>HTML, CSS</span></div>
@@ -76,96 +78,107 @@
             </div>
         </section>
 
+
         <section id="work-history-wrapper" class="section--page">
-            <h2>Work History</h2>
+            <h2 data-i18n="workHistory">Work History</h2>
 
             <div class="line-break"></div>
             <div class="card--work-history">
-                <strong>🚧 Frontend Developer | ZettaSoft IO</strong>
-                <p>September 2021 - Present</p>
-                <p>This is the company with which you will build, expand and control your business.</p>
+                <strong data-i18n="frontendDeveloperZettaSoft">🚧 Frontend Developer | ZettaSoft IO</strong>
+                <p data-i18n="periodSep2021Present">September 2021 - Present</p>
+                <p data-i18n="zettaSoftDescription">This is the company with which you will build, expand and control
+                    your business.</p>
 
-                <p>Projects in which I participated:</p>
+                <p data-i18n="projectsParticipated">Projects in which I participated:</p>
 
-                <li>KEBEK</li>
+                <li data-i18n="projectKEBEK">KEBEK</li>
                 <ul>
-                    <p>My impacts:</p>
+                    <p data-i18n="myImpacts">My impacts:</p>
+                    <p data-i18n="mainStorePage">Main Store Page:</p>
                     <ul>
-                        <p>Main Store Page:</p>
-                        <ul>
-                            <li>Developed the foundation of the web store, enabling user registration and product
-                                management,
-                                including adding items to the cart, modifying quantities, and completing purchases</li>
-                            <li>Implemented cart functionality allowing users to adjust product quantities and remove
-                                them
-                                from the cart</li>
-                        </ul>
-
-                        <p>User Personal Account Page:</p>
-                        <ul>
-                            <li>Created a user dashboard for viewing and editing personal information, and interacting
-                                with
-                                notifications</li>
-                            <li>Developed notification and product inquiry pages, enhancing user interaction with the
-                                site
-                            </li>
-                        </ul>
-
-                        <p> Administrative Panel Page:</p>
-                        <ul>
-                            <li>Developed an administrative panel for product management, editing supplier and employee
-                                information</li>
-                            <li>Integrated ApexCharts for sales analytics visualization
-                            </li>
-                        </ul>
+                        <li data-i18n="kebekMainStorePageImpacts.firstImpact">Developed the foundation of the web store,
+                            enabling user registration and product
+                            management, including adding items to the cart, modifying quantities, and completing
+                            purchases</li>
+                        <li data-i18n="kebekMainStorePageImpacts.secondImpact">Implemented cart functionality allowing
+                            users to adjust product quantities and remove
+                            them from the cart</li>
                     </ul>
-                </ul>
 
-
-                <li>Land of Startups</li>
-                <ul>
-                    <p>My impacts:</p>
+                    <p data-i18n="userPersonalAccountPage">User Personal Account Page:</p>
                     <ul>
-                        <li>Developed the "My Events" page, featuring event cards with information and a link to each
-                            event's detailed page</li>
-                        <li>Developed functionality allowing users to share events via social media</li>
-                        <li>Developed the "My Profile" page, offering users the ability to edit their profile, view
-                            submitted applications for vacancies and tasks, and track their status</li>
-                        <li>Responsible for debugging throughout the application and implementing multilingual support
+                        <li data-i18n="userPersonalAccountPageImpacts.firstImpact">Created a user dashboard for viewing
+                            and editing personal information, and interacting
+                            with notifications</li>
+                        <li data-i18n="userPersonalAccountPageImpacts.secondImpact">Developed notification and product
+                            inquiry pages, enhancing user interaction with the
+                            site</li>
+                    </ul>
+
+                    <p data-i18n="administrativePanelPage">Administrative Panel Page:</p>
+                    <ul>
+                        <li data-i18n="administrativePanelPageImpacts.firstImpact">Developed an administrative panel for
+                            product management, editing supplier and employee
+                            information</li>
+                        <li data-i18n="administrativePanelPageImpacts.secondImpact">Integrated ApexCharts for sales
+                            analytics visualization
                         </li>
                     </ul>
                 </ul>
 
-
-                <li>Hustle Free</li>
-
+                <li data-i18n="landOfStartups">Land of Startups</li>
                 <ul>
-                    <p>My impacts:</p>
-
+                    <p data-i18n="myImpacts">My impacts:</p>
                     <ul>
-                        <li>Fully developed the project's authentication system</li>
-                        <li>Developed the main page of the project, excluding carousels and tournament cards</li>
-                        <li>Developed a registration feature for athletes to enter their data for tournament
+                        <li data-i18n="landOfStartupsImpacts.firstImpact">Developed the "My Events" page, featuring
+                            event cards with information and a link to each
+                            event's detailed page</li>
+                        <li data-i18n="landOfStartupsImpacts.secondImpact">Developed functionality allowing users to
+                            share events via social media</li>
+                        <li data-i18n="landOfStartupsImpacts.thirdImpact">Developed the "My Profile" page, offering
+                            users the ability to edit their profile, view
+                            submitted applications for vacancies and tasks, and track their status</li>
+                        <li data-i18n="landOfStartupsImpacts.fourthImpact">Responsible for debugging throughout the
+                            application and implementing multilingual support
+                        </li>
+                    </ul>
+                </ul>
+
+                <li data-i18n="hustleFree">Hustle Free</li>
+                <ul>
+                    <p data-i18n="myImpacts">My impacts:</p>
+                    <ul>
+                        <li data-i18n="hustleFreeImpacts.firstImpact">Fully developed the project's authentication
+                            system</li>
+                        <li data-i18n="hustleFreeImpacts.secondImpact">Developed the main page of the project, excluding
+                            carousels and tournament cards</li>
+                        <li data-i18n="hustleFreeImpacts.thirdImpact">Developed a registration feature for athletes to
+                            enter their data for tournament
                             participation</li>
-                        <li>Developed the "Community" page with sorting capabilities for Users by categories Athletes,
+                        <li data-i18n="hustleFreeImpacts.fourthImpact">Developed the "Community" page with sorting
+                            capabilities for Users by categories Athletes,
                             Teams, Organizers, and filtering by the teams they participate in, country, gender, as well
                             as a search function for all users</li>
                     </ul>
                 </ul>
 
-                <li>Shopper</li>
-
+                <li data-i18n="shopper">Shopper</li>
                 <ul>
-                    <p>My impacts:</p>
-                    <p>Developed the project from scratch, working both independently and as part of a team. Here are
-                        the latest tasks I've worked on:</p>
+                    <p data-i18n="myImpacts">My impacts:</p>
+                    <p data-i18n="shopperMiniDescription">Developed the project from scratch, working both independently
+                        and as part of a team. Here are the latest tasks I've worked on:</p>
                     <ul>
-                        <li>Initiated the transition to TailwindCSS from css-in-js (styled-components), accelerating the
+                        <li data-i18n="shopperImpacts.firstImpact">Initiated the transition to TailwindCSS from
+                            css-in-js (styled-components), accelerating the
                             development process</li>
-                        <li>Optimized the project architecture to FSD, enhancing its scalability</li>
-                        <li>Developed a feature for saving form data when creating a product using IndexedDB</li>
-                        <li>Successfully migrated the project from Redux Toolkit to Zustand</li>
-                        <li>Created a custom Select component, simplifying navigation through nested product categories
+                        <li data-i18n="shopperImpacts.secondImpact">Optimized the project architecture to FSD, enhancing
+                            its scalability</li>
+                        <li data-i18n="shopperImpacts.thirdImpact">Developed a feature for saving form data when
+                            creating a product using IndexedDB</li>
+                        <li data-i18n="shopperImpacts.fourthImpact">Successfully migrated the project from Redux Toolkit
+                            to Zustand</li>
+                        <li data-i18n="shopperImpacts.fifthImpact">Created a custom Select component, simplifying
+                            navigation through nested product categories
                         </li>
                     </ul>
                 </ul>
@@ -174,28 +187,33 @@
             <div class="line-break"></div>
 
             <div class="card--work-history">
-                <strong>🚧 Frontend Developer | MAKERS</strong>
-                <p>July 2021 - August 2021</p>
-                <p>Makers, a Kyrgyz company specializing in software and website development, also provides programming
-                    courses and
-                    training for novice developers.</p>
-                <p>My impacts:</p>
+                <strong data-i18n="frontendDeveloperMAKERS">🚧 Frontend Developer | MAKERS</strong>
+                <p data-i18n="periodJul2021Aug2021">July 2021 - August 2021</p>
+                <p data-i18n="makersDescription">Makers, a Kyrgyz company specializing in software and website
+                    development, also provides programming
+                    courses and training for novice developers.</p>
+                <p data-i18n="myImpacts">My impacts:</p>
                 <ul>
-                    <li>Actively participated in student training, offering support with assignments and verifying
+                    <li data-i18n="makersImpacts.firstImpact">Actively participated in student training, offering
+                        support with assignments and verifying
                         homework</li>
-                    <li>Developed and optimized web page layouts</li>
-                    <li>Delved into learning React and Next.js, implementing functional components and interfaces to
+                    <li data-i18n="makersImpacts.secondImpact">Developed and optimized web page layouts</li>
+                    <li data-i18n="makersImpacts.thirdImpact">Delved into learning React and Next.js, implementing
+                        functional components and interfaces to
                         enhance user experience</li>
-                    <li>Identified and fixed bugs in projects, improving the quality and stability of web applications
+                    <li data-i18n="makersImpacts.fourthImpact">Identified and fixed bugs in projects, improving the
+                        quality and stability of web applications
                     </li>
                 </ul>
             </div>
 
             <div class="line-break"></div>
-
         </section>
 
+
     </div>
+
+    <script src="./index.js"></script>
 
 </body>
 
