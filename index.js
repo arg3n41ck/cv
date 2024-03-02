@@ -33,7 +33,7 @@ const translations = {
 		bio: 'Frontend developer with 1.5 years of experience in creating quality user interfaces.',
 		email: '👉 argoalimbaev@gmail.com',
 		linkedin: 'Linkedin',
-		github: 'Github',
+		github: 'GitHub',
 		telegram: 'Telegram',
 		leetCode: 'LeetCode',
 		resume: 'Resume',
