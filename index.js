@@ -98,7 +98,7 @@ const translations = {
 		shopperImpacts: {
 			firstImpact:
 				'Initiated the transition to TailwindCSS from css-in-js (styled-components)',
-			secondImpact: 'Optimized the project architecture to FSD',
+			secondImpact: 'Successfully integrated React Query',
 			thirdImpact:
 				'Developed a feature for saving form data when creating a product using IndexedDB',
 			fourthImpact:
@@ -191,7 +191,7 @@ const translations = {
 		shopperImpacts: {
 			firstImpact:
 				'Инициировал переход на TailwindCSS с css-in-js (styled-components)',
-			secondImpact: 'Оптимизировал архитектуру проекта на FSD',
+			secondImpact: 'Успешно интегрировал React Query',
 			thirdImpact:
 				'Разработал функцию для сохранения данных формы при создании продукта с использованием IndexedDB',
 			fourthImpact: 'Успешно перенес проект с Redux Toolkit на Zustand',
