@@ -243,7 +243,7 @@ document
 	.addEventListener('click', () => changeLanguage('ru'))
 
 document.addEventListener('DOMContentLoaded', () => {
-	const lang = localStorage.getItem('lang') || ''
+	const lang = localStorage.getItem('lang') || 'en'
 	const savedTheme = localStorage.getItem('theme') || 'dark'
 
 	document.body.setAttribute('data-theme', savedTheme)
