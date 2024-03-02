@@ -35,6 +35,7 @@ const translations = {
 		linkedin: 'Linkedin',
 		github: 'Github',
 		telegram: 'Telegram',
+		leetCode: 'LeetCode',
 		resume: 'Resume',
 		aboutMe: 'About me',
 		aboutMeText:
@@ -127,6 +128,7 @@ const translations = {
 		linkedin: 'Линкедин',
 		github: 'Гитхаб',
 		telegram: 'Телеграм',
+		leetCode: 'Литкод',
 		resume: 'Резюме',
 		aboutMe: 'Обо мне',
 		aboutMeText:
