@@ -30,7 +30,7 @@ const translations = {
 	en: {
 		switchTheme: 'Switch Theme',
 		userName: 'Alimbaev Argen',
-		bio: 'Frontend developer with over 1.5 years of experience in creating quality user interfaces.',
+		bio: 'Frontend developer with 1.5 years of experience in creating quality user interfaces.',
 		email: '👉 argoalimbaev@gmail.com',
 		linkedin: 'Linkedin',
 		github: 'Github',
@@ -122,7 +122,7 @@ const translations = {
 	ru: {
 		switchTheme: 'Переключить тему',
 		userName: 'Алимбаев Арген',
-		bio: 'Фронтенд разработчик с более чем 1.5 годами опыта создания качественных пользовательских интерфейсов.',
+		bio: 'Фронтенд разработчик с 1.5 годами опыта создания качественных пользовательских интерфейсов.',
 		email: '👉 argoalimbaev@gmail.com',
 		linkedin: 'Линкедин',
 		github: 'Гитхаб',
