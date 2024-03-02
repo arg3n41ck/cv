@@ -189,7 +189,7 @@ const translations = {
 		shopperImpacts: {
 			firstImpact:
 				'Инициировал переход на TailwindCSS с css-in-js (styled-components)',
-			secondImpact: 'Оптимизировал архитектуру проекта до FSD',
+			secondImpact: 'Оптимизировал архитектуру проекта на FSD',
 			thirdImpact:
 				'Разработал функцию для сохранения данных формы при создании продукта с использованием IndexedDB',
 			fourthImpact: 'Успешно перенес проект с Redux Toolkit на Zustand',
