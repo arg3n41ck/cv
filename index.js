@@ -30,7 +30,7 @@ const translations = {
 	en: {
 		switchTheme: 'Switch Theme',
 		userName: 'Alimbaev Argen',
-		bio: 'Frontend developer with 2 years of experience in creating quality user interfaces.',
+		bio: 'Frontend developer with 2+ years of experience in creating quality user interfaces.',
 		email: '👉 argoalimbaev@gmail.com',
 		linkedin: 'Linkedin',
 		github: 'GitHub',
@@ -39,7 +39,7 @@ const translations = {
 		resume: 'Resume',
 		aboutMe: 'About me',
 		aboutMeText:
-			'I have worked closely with backend developers to ensure integration and functionality. I am always willing to be a valuable team member and ready for new projects and challenges. I love working in a company where I can apply and improve my skills while working with highly skilled professionals. I am confident that my experience, knowledge, and motivation will help me to achieve great results and contribute to the success of your company.',
+			'I worked closely with the backend developers and other members of a team of seven professionals: three backend developers, two frontend developers, one designer and a project manager (PM) to ensure the integration and functionality of our projects. In this process, we worked closely with each other every step of the way to ensure high quality and efficient project delivery in collaboration with our customers. I am always willing to be a valued member of the team and ready for new projects and challenges, I love working for a company where I can apply and improve my skills while working with highly skilled professionals. I am confident that my experience, knowledge and motivation will help me to achieve great results and make a meaningful contribution to the success of your company.',
 		techStack: 'Tech stack',
 		workHistory: 'Work History',
 		workHistoryExample: '🚧 Frontend Developer | ZettaSoft IO',
@@ -107,7 +107,7 @@ const translations = {
 				'Created a custom Select component, simplifying navigation through nested product categories',
 		},
 		frontendDeveloperMAKERS: '🚧 Frontend Developer | MAKERS',
-		periodJul2021Aug2021: 'July 2021 - August 2021',
+		periodJul2021Aug2021: 'March 2021 - August 2021',
 		makersDescription:
 			'Makers, a Kyrgyz company specializing in software and website development, also provides programming courses and training for novice developers.',
 		makersImpacts: {
@@ -123,16 +123,16 @@ const translations = {
 	ru: {
 		switchTheme: 'Переключить тему',
 		userName: 'Алимбаев Арген',
-		bio: 'Фронтенд разработчик с 2 годами опыта создания качественных пользовательских интерфейсов.',
+		bio: 'Фронтенд разработчик с 2+ годами опыта создания качественных пользовательских интерфейсов.',
 		email: '👉 argoalimbaev@gmail.com',
 		linkedin: 'Линкедин',
-		github: 'Гитхаб',
+		github: 'ГитХаб',
 		telegram: 'Телеграм',
 		leetCode: 'Литкод',
 		resume: 'Резюме',
 		aboutMe: 'Обо мне',
 		aboutMeText:
-			'Я тесно сотрудничал с бэкенд-разработчиками для обеспечения интеграции и функциональности. Всегда готов быть ценным членом команды и готов к новым проектам и вызовам. Люблю работать в компании, где могу применять и улучшать свои навыки, работая с высококвалифицированными специалистами. Уверен, что мой опыт, знания и мотивация помогут мне достигнуть великолепных результатов и внести вклад в успех вашей компании.',
+			'Я тесно сотрудничал с бэкенд-разработчиками и другими членами команды, состоящей из семи специалистов: трех бэкенд-разработчиков, двух фронтенд-разработчиков, одного дизайнера и менеджера проектов (PM), для обеспечения интеграции и функциональности наших проектов. В этом процессе мы тесно взаимодействовали друг с другом на каждом этапе работы, стремясь обеспечить высокое качество и эффективность выполнения проектов в сотрудничестве с заказчиками. Я всегда готов быть ценным членом команды и готов к новым проектам и вызовам, люблю работать в компании, где могу применять и улучшать свои навыки, работая с высококвалифицированными специалистами. Уверен, что мой опыт, знания и мотивация помогут мне достигнуть великолепных результатов и внести значимый вклад в успех вашей компании.',
 		techStack: 'Технологический стек',
 		workHistory: 'История работы',
 		workHistoryExample: '🚧 Фронтенд разработчик | ZettaSoft IO',
@@ -199,7 +199,7 @@ const translations = {
 				'Создал пользовательский компонент Select, упрощающий навигацию по вложенным категориям продуктов',
 		},
 		frontendDeveloperMAKERS: '🚧 Фронтенд разработчик | MAKERS',
-		periodJul2021Aug2021: 'Июль 2021 - Август 2021',
+		periodJul2021Aug2021: 'Март 2021 - Август 2021',
 		makersDescription:
 			'Makers, кыргызская компания, специализирующаяся на разработке программного обеспечения и веб-сайтов, также предлагает курсы программирования и обучение для начинающих разработчиков.',
 		makersImpacts: {
