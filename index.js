@@ -36,7 +36,7 @@ const translations = {
 		github: 'GitHub',
 		telegram: 'Telegram',
 		leetCode: 'LeetCode',
-		resume: 'Resume',
+		resume: 'Resume(PDF)',
 		aboutMe: 'About me',
 		aboutMeText:
 			'I have worked extensively in a team with backend developers, designers and project managers to ensure the integration and functionality of our projects. I enjoy being a key part of a team where I can apply and improve my skills while collaborating with high level professionals. I am confident that my ability to work in a team, as well as my experience and motivation, will allow me to make a significant contribution to the success of your company and achieve outstanding results. I am ready for new projects and challenges, and I am eager to work in a dynamic environment where every day offers new opportunities for growth and development.',
@@ -129,7 +129,7 @@ const translations = {
 		github: 'ГитХаб',
 		telegram: 'Телеграм',
 		leetCode: 'Литкод',
-		resume: 'Резюме',
+		resume: 'Резюме(PDF)',
 		aboutMe: 'Обо мне',
 		aboutMeText:
 			'Я активно работал в команде с бэкенд-разработчиками, дизайнерами и менеджерами проектов, обеспечивая интеграцию и функциональность наших проектов. Мне нравится быть ключевой частью команды, где могу применять и совершенствовать свои навыки, сотрудничая с профессионалами высокого уровня. Я уверен, что моя способность к работе в команде, а также мой опыт и мотивация позволят мне внести значительный вклад в успех вашей компании и достигнуть выдающихся результатов. Готов к новым проектам и вызовам, стремлюсь работать в динамичной среде, где каждый день предлагает новые возможности для роста и развития.',
